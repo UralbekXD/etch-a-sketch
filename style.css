@@ -1,5 +1,14 @@
 .board {
-    border: 1px solid black;
+    background-color: white;
+    border: 2px dashed black;
     display: flex;
     flex-wrap: wrap;
+}
+
+.cell {
+    user-select: none;
+}
+
+.row {
+    margin-bottom: 20px;
 }

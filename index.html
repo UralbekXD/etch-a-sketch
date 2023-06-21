@@ -6,6 +6,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="buttons">
+        <div class="row">
+            <button id="clear">Clear</button>
+        </div>
+
+        <div class="row">
+            <label for="size" id="size-label">
+                <!-- Grid size NxN -->
+                16x16
+            </label>
+            <input type="range" name="size" id="size" min="16" max="64">
+        </div>
+
+        <div class="row">
+            <label for="randomize-color">Randomize Color</label>
+            <input type="checkbox" id="randomize-color">
+        </div>
+    </div>
+
     <div class="board"></div>
 
     <script src="main.js"></script>
